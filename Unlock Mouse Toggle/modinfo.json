@@ -3,7 +3,7 @@
     "modid": "unlock mouse toggle",
     "name": "ZackTheGoat",
     "authors": [
-        "ZackTheGoat"
+        "ZackTheGoat", "MaroonAngel"
     ],
     "description": "ALT button Toggle unlocks the mouse rather than having to hold it down.",
     "version": "1.0.0",
