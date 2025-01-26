@@ -1419,11 +1419,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/games/VS Modding Projects/Unlock Mouse Toggle/CakeBuild/CakeBuild.csproj",
+      "projectUniqueName": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj",
       "projectName": "CakeBuild",
-      "projectPath": "/mnt/games/VS Modding Projects/Unlock Mouse Toggle/CakeBuild/CakeBuild.csproj",
+      "projectPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj",
       "packagesPath": "/home/zackthegoat/.nuget/packages/",
-      "outputPath": "/mnt/games/VS Modding Projects/Unlock Mouse Toggle/CakeBuild/obj/",
+      "outputPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/zackthegoat/.nuget/NuGet/NuGet.Config"

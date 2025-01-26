@@ -1,0 +1,5 @@
+/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/Debug/UnlockMouseToggle.csproj.AssemblyReference.cache
+/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/Debug/UnlockMouseToggle.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/Debug/UnlockMouseToggle.AssemblyInfoInputs.cache
+/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/Debug/UnlockMouseToggle.AssemblyInfo.cs
+/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/Debug/UnlockMouseToggle.csproj.CoreCompileInputs.cache

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj": {}
+    "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/UnlockMouseToggle.csproj": {}
   },
   "projects": {
-    "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj": {
+    "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/UnlockMouseToggle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj",
-        "projectName": "CakeBuild",
-        "projectPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj",
+        "projectUniqueName": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/UnlockMouseToggle.csproj",
+        "projectName": "UnlockMouseToggle",
+        "projectPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/UnlockMouseToggle.csproj",
         "packagesPath": "/home/zackthegoat/.nuget/packages/",
-        "outputPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/obj/",
+        "outputPath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/UnlockMouseToggle/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/zackthegoat/.nuget/NuGet/NuGet.Config"
@@ -37,20 +37,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "dependencies": {
-            "Cake.Frosting": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
-            "Cake.Json": {
-              "target": "Package",
-              "version": "[7.0.1, )"
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

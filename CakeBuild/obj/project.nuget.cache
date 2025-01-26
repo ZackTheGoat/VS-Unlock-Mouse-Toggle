@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "00HcVVjb6JIohno0KWKEvXaTMeKbrAY2f2Kt2q7y+6z3WoiZEliDzShkwOgh076UyI2r83d+qQzEcwlSvN8x5A==",
+  "dgSpecHash": "pii3IzBoSuuCgpG+ny12ynV7yuXEzc7rWtNxWStJ4Rua3ZHrT26j+GLp/n7CwJPEZ5B42+L3c3qj9oPbOXUZTQ==",
   "success": true,
-  "projectFilePath": "/mnt/games/VS Modding Projects/Unlock Mouse Toggle/CakeBuild/CakeBuild.csproj",
+  "projectFilePath": "/mnt/games/VS Modding Projects/VS-Unlock-Mouse-Toggle/CakeBuild/CakeBuild.csproj",
   "expectedPackageFiles": [
     "/home/zackthegoat/.nuget/packages/autofac/6.4.0/autofac.6.4.0.nupkg.sha512",
     "/home/zackthegoat/.nuget/packages/cake.cli/3.0.0/cake.cli.3.0.0.nupkg.sha512",
