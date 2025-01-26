@@ -1,5 +1,4 @@
 using Vintagestory.API.Common;
-using WhatInTheWorld.MadeUpGarabage.Nope;
 
 namespace Unlock_Mouse_Toggle;
 
@@ -21,6 +20,9 @@ public class Unlock_Mouse_Toggle : ModSystem
     }
     */
     #endregion
+
+    public boolean MouseToggled = false;
+
 
     public override void StartClientSide(ICoreClientAPI api)
     {
