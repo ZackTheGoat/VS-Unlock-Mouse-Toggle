@@ -24,8 +24,20 @@ public class Unlock_Mouse_Toggle : ModSystem
     public boolean MouseToggled = false;
 
 
+    public ICoreClientAPI api;
+
+
+
+
+
+
     public override void StartClientSide(ICoreClientAPI api)
     {
+        this.api = api;
+
+        //register hotkey that does the thing
+
+
         api.Logger.Notification("Hello from test mod client side: " + Lang.Get("mouselocktoggle:hello"));
     }
 }
