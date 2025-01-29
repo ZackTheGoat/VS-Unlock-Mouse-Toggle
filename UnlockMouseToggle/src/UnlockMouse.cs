@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Security.Principal;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
+using Vintagestory.API.Util;
 
 namespace UnlockMouse
 {
@@ -12,25 +15,22 @@ namespace UnlockMouse
     {
         private bool _isMouseToggled = false;
         private readonly ICoreClientAPI _clientApi;
+
         private GuiDialog _dialog;
+
+
+
         public UnlockMouseHandler(ICoreClientAPI clientApi)
         {
             _clientApi = clientApi;
         }
-        
+
+
         public class MouseDialog : GuiDialog
         {
             public override string ToggleKeyCombinationCode => "toggleMouse";
-            public override bool PrefersUngrabbedMouse => true;
-            public override bool CaptureAllInputs()
-            {
-                return false;
-            }
+            public override bool PrefersUngrabbedMouse => false;
 
-            public override bool CaptureRawMouse()
-            {
-                return false;
-            }
 
             public MouseDialog(ICoreClientAPI capi) : base(capi)
             {
@@ -42,33 +42,36 @@ namespace UnlockMouse
                 ElementBounds dialogBounds = ElementStdBounds.AutosizedMainDialog.WithAlignment(EnumDialogArea.CenterTop);
 
                 ElementBounds textBounds = ElementBounds.Fixed(0, 0, 0, 0);
+
             }
         }
 
     
                 public void Activate()
         {
-            _clientApi.Input.RegisterHotKey("toggleMouse", "Toggle Mouse Unlock", GlKeys.LAlt);
+            _clientApi.Input.RegisterHotKey("toggleMouse", "Toggle Mouse Unlock", GlKeys.F);
             _clientApi.Input.HotKeys["toggleMouse"].Handler += OnToggleMouseHotkey;
 
             _dialog = new MouseDialog(_clientApi);
         }
-
+        
         private bool OnToggleMouseHotkey(KeyCombination t1)
         {
             _isMouseToggled = !_isMouseToggled;
 
-            if (_isMouseToggled)
-            {
-                _dialog?.TryOpen();
-                _clientApi.Input.MouseWorldInteractAnyway = true;
-            }
-            else
+            if (_dialog?.IsOpened() == true)
             {
                 _dialog.TryClose();
             }
+            else
+            {
+               _dialog?.TryOpen();
+            }
             return true;
+      
         }
+
+        
     }
     
     
